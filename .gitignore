@@ -1,0 +1,39 @@
+# Build outputs
+/build/
+/cmake-cache/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.pyc
+__pycache__/
+
+# ns-3 lock / local config
+.lock-ns3*
+*.lock
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Simulation / experiment outputs
+*.pcap
+*.log
+*.out
+*.tr
+*.csv
+!**/wscript
+.mplconfig/
+
+# Python
+*.egg-info/
+.venv/
+venv/
